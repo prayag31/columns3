@@ -1,0 +1,276 @@
+.firstcol{
+    
+    display:inline-block;
+    gap:10px;
+    
+  }
+  
+  .firstinner{
+    padding-top:25px;
+    background-color:hsl(31, 77%, 52%);
+  display:flex;
+    flex-direction:column;
+    gap:1%;
+    position:relative;
+    border-radius:20px 0px 0px 20px;
+    
+  }
+  
+  h1{
+    text-align:left;
+    padding-left:50px;
+    margin-top:100px;
+  }
+  
+  p{
+    
+    width:400px;
+    height:500px;
+    text-align:left;
+    margin-top:20%;
+    padding-left:50px;
+   
+  }
+  
+  img{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    object-fit:cover;
+    opacity:0.7;
+      filter:brightness(100%)
+  }
+  .carimg{
+   object-fit:cover;
+    position:absolute;
+    top:40px;
+    left:140px;
+    filter:sepia(100%) saturate(230%) brightness(100%) hue-rotate(330deg);
+    opacity:0.7;
+  }
+  .overlayimg{
+   
+   
+    border-radius:70%;
+    position:absolute;
+    top:40px;
+    left:110px;
+  filter: brightness(110%)
+  }
+  
+  h2{
+    
+    text-align:center;
+    display:inline-block;
+    background:red;
+    border-radius:10%;
+    margin-bottom:10%;
+  }
+  
+  .button{
+    text-align:center;
+    position:absolute;
+    bottom:200px;
+    display:block;
+   text-align:center;
+    left:100px;
+  }
+  
+  body{
+    height:100vh;
+  }
+  .but1{
+    border-radius:32px;
+    font-size: 24px;
+    padding: 12px 36px;
+    border:none;
+  color:hsl(31, 77%, 52%);
+  }
+  
+  /* ------------------------------------- */
+  
+  .seccol{
+    background:green;
+    display:inline-block;
+    gap:10px;
+    
+  }
+  
+  .secondinner{
+    padding-top:25px;
+    background-color: hsl(184, 100%, 22%);
+  display:flex;
+    flex-direction:column;
+    gap:1%;
+    position:relative;
+    
+  }
+  
+  h1{
+    text-align:left;
+   margin-left:5px;
+    color:white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+    font-size:60px;
+  }
+  
+  p{
+    color:white;
+    width:4px;
+    height:500px;
+    text-align:left;
+    margin-top:20%;
+    padding-left:50px;
+    font-size: 25px;
+    padding-right:18px;
+    font-family: 'Big Shoulders Display';
+    font-size:30px;
+    opacity:0.7;
+    
+   
+  }
+  
+  img{
+    height:60px;
+    width:60px;
+  
+  }
+  .carimg2{
+    border-radius:70%;
+    position:absolute;
+    top:40px;
+    left:140px;
+    filter:sepia(100%) saturate(230%) brightness(100%) hue-rotate(330deg);
+    opacity:0.6
+  }
+  .overlayimg2{
+   
+   
+    border-radius:70%;
+    position:absolute;
+    top:40px;
+    left:110px;
+  filter: brightness(50%);
+    display:flex;
+  
+   
+  }
+  
+  h2{
+    
+    text-align:center;
+    display:inline-block;
+    background:red;
+    border-radius:10%;
+    margin-bottom:10%;
+  }
+  
+  .button{
+    text-align:center;
+    position:absolute;
+    bottom:200px;
+    display:block;
+   text-align:center;
+    left:100px;
+  }
+  
+  body{
+    height:100vh;
+  }
+  .but2{
+    border-radius:32px;
+    font-size: 24px;
+    padding: 12px 36px;
+    border:none;
+    color: hsl(184, 100%, 22%);}
+  /* //------------------------------------// */
+  .thirdcol{
+   
+    display:inline-block;
+    gap:10px;
+    
+  }
+  
+  .thirdinner{
+    padding-top:25px;
+    background-color: hsl(179, 100%, 13%);
+  display:flex;
+    flex-direction:column;
+    gap:1%;
+    position:relative;
+    border-radius:0px 20px 20px 0px;
+    
+  }
+  
+  h1{
+    text-align:left;
+    padding-left:50px;
+  }
+  
+  p{
+    
+    width:400px;
+    height:500px;
+    text-align:left;
+    margin-top:20%;
+    padding-left:50px;
+   
+  }
+  
+  img{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    object-fit:cover;
+  }
+  .carimg3{
+    
+    position:absolute;
+    top:40px;
+    left:80px;
+   
+    opacity:1;
+    
+  }
+  .overlayimg3{
+   
+   
+    border-radius:70%;
+    position:absolute;
+    top:40px;
+    left:110px;
+  filter: brightness(110%)
+  }
+  
+  h2{
+    
+    text-align:center;
+    display:inline-block;
+    background:red;
+    border-radius:10%;
+    margin-bottom:10%;
+  }
+  
+  .button1{
+    text-align:center;
+    position:absolute;
+    bottom:200px;
+    display:block;
+   text-align:center;
+    left:100px;
+    border-radius:250px;
+  }
+  
+  .but3{
+    border-radius:32px;
+    font-size: 24px;
+    padding: 12px 36px;
+    border:none;
+  color: hsl(179, 100%, 13%);
+    
+  }
+  .outer{
+    display:flex;
+    flex-direction:row;
+  }

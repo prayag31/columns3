@@ -105,6 +105,12 @@
     div:nth-child(3){
       border-radius:0px 0px 10px 10px;
   }
+ body{
+    margin:0;
+    padding:0px;
+  }
+}
+
   @media(min-width:550px){
     .outer{
       display:flex;
@@ -118,11 +124,12 @@
     div:nth-child(3){
      border-radius:0px 10px 10px 0px;
   }
-  }
-  body{
+body{
     height:100vh;
     margin-top:200px;
     background:whitesmoke;
   }
+  }
+  
   
   
